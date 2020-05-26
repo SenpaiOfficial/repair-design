@@ -20,6 +20,11 @@
   font-size: 0.93rem; }
   .button:hover {
     cursor: pointer; }
+  .button--call {
+    background-color: #E3B873;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    transition: box-shadow 0.3s; }
   .button--primary {
     background-color: #E3B873;
     color: #fff;
@@ -464,7 +469,7 @@ body {
     margin: 0;
     margin-bottom: 3rem; }
   .hero__button {
-    margin-right: 20px; }
+    margin-right: 1.4rem; }
 
 .instagram {
   display: flex;
