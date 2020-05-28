@@ -647,6 +647,8 @@ img {
   padding: 1.214rem 2.6rem; }
 
 .modal {
+  opacity: 0;
+  visibility: hidden;
   display: flex;
   position: fixed;
   z-index: 199;
@@ -659,12 +661,16 @@ img {
   background-color: rgba(19, 19, 19, 0.6);
   align-items: center;
   justify-content: center; }
+  .modal--visible {
+    opacity: 1;
+    visibility: visible; }
   .modal__dialog {
     position: relative;
-    max-width: 36.36rem;
+    max-width: 36.14rem;
     background: #131313 url("../img/bg-lines.svg") no-repeat center;
     padding: 2.357rem 3.5rem 1.928rem;
-    color: #fff; }
+    color: #fff;
+    margin-top: 90px; }
   .modal__close {
     position: absolute;
     right: 0;
@@ -691,7 +697,9 @@ img {
   .modal__policy {
     margin-bottom: 2.7rem; }
   .modal__button {
-    align-self: flex-end; }
+    align-self: flex-end;
+    padding: 1.35rem 3.54rem;
+    border-radius: 0; }
 
 @media screen and (max-width: 1200px) {
   html {
