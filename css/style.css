@@ -716,13 +716,21 @@ img {
     margin-left: 0; } }
 
 @media screen and (max-width: 760px) {
+  .designs {
+    background-color: #131313; }
+    .designs__text {
+      color: #fff; }
+  .section-title__heading {
+    color: #fff; }
   .row {
     flex-direction: column;
     align-items: center; }
   .types__card, .designs__card {
     margin-bottom: 5rem; }
   .card__text {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .card--item {
+    display: none; } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
