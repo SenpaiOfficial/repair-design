@@ -30,8 +30,17 @@
     margin-left: 0
    &--item
      display: none
-
+  .hero
+    &::after
+      display: none
+  .section-title__heading--primary
+   color: $primary
 @media screen and ( max-width: 570px )
+ .section-title__word
+   &::after
+     display: none
+ .section-title__heading--primary
+   color: $primary
  .contacts
   &__phone
    margin-right: 0

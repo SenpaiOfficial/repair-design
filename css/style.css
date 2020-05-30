@@ -436,7 +436,7 @@ img {
       .section-title__word::after {
         content: '';
         width: 90px;
-        height: 2px;
+        height: 1px;
         background-color: #E3B873;
         margin-left: 2rem; }
     .section-title__text {
@@ -596,6 +596,8 @@ img {
     flex-basis: 50%;
     margin-bottom: 2.42rem;
     padding-bottom: 2rem; }
+  .swiper-slide__text-2 {
+    margin-bottom: 0; }
   .swiper-slide__heading {
     font-size: 1.285rem;
     line-height: 1.78rem;
@@ -805,9 +807,17 @@ img {
   .card__text {
     margin-left: 0; }
   .card--item {
-    display: none; } }
+    display: none; }
+  .hero::after {
+    display: none; }
+  .section-title__heading--primary {
+    color: #E3B873; } }
 
 @media screen and (max-width: 570px) {
+  .section-title__word::after {
+    display: none; }
+  .section-title__heading--primary {
+    color: #E3B873; }
   .contacts__phone {
     margin-right: 0;
     color: #fff;
