@@ -25,6 +25,8 @@
       color: $light
   .section-title__heading
     color: $light
+    &--dark
+      color: $dark
   .row
    flex-direction: column
    align-items: center
@@ -56,6 +58,17 @@
      justify-content: flex-start
    &__text
      color: $light
+   &__label
+     color: rgba($light, 0.5)
+     margin-bottom: 0.2rem
+   &__policy-label
+     color: $light
+   &__button
+     position: relative
+     margin-bottom: -7rem
+   &__input
+     &::placeholder
+       color: $light
  .col-50
    width: 100%
  .section-title__word
