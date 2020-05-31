@@ -42,10 +42,18 @@
   .section-title__heading--primary
    color: $primary
 @media screen and ( max-width: 570px )
+ .control
+   &__form
+     flex-direction: column
+   &__input-group
+     margin-bottom: 4.5rem
+   &__button
+     order: 1
+   &__policy-label
+     margin-bottom: 4.42rem
+     justify-content: flex-start
  .col-50
    width: 100%
- .section--dark
-   padding: 36px 0 3.5rem 0
  .section-title__word
    &::after
      display: none
