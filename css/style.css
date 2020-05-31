@@ -900,6 +900,8 @@ img {
     color: #E3B873; } }
 
 @media screen and (max-width: 570px) {
+  .control--dark {
+    background-color: #131313; }
   .control__form {
     flex-direction: column; }
   .control__input-group {
@@ -909,6 +911,8 @@ img {
   .control__policy-label {
     margin-bottom: 4.42rem;
     justify-content: flex-start; }
+  .control__text {
+    color: #fff; }
   .col-50 {
     width: 100%; }
   .section-title__word::after {
