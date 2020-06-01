@@ -20,6 +20,8 @@
   font-size: 0.93rem; }
   .button:hover {
     cursor: pointer; }
+  .button:focus {
+    outline: none; }
   .button--call {
     background-color: #E3B873;
     color: #fff;
@@ -430,7 +432,9 @@ img {
     .section-title__heading {
       text-transform: uppercase;
       font-family: 'Yeseva One', cursive;
-      line-height: 138.6%; }
+      line-height: 138.6%;
+      font-size: 1.428rem;
+      margin: 0 0 0.785rem 0; }
       .section-title__heading--primary {
         color: #E3B873;
         font-size: 1.928rem; }
@@ -554,7 +558,7 @@ img {
       height: 30px;
       border: 2px solid #E3B873;
       border-radius: 50%;
-      margin-left: 1.4rem; }
+      margin-left: 1.3rem; }
   .hero__text {
     font-size: 1.57rem;
     max-width: 500px;
@@ -859,7 +863,7 @@ img {
     padding: 1.35rem 3.54rem;
     border-radius: 0; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   html {
     font-size: 12px; }
   .nav__item {
