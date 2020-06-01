@@ -97,8 +97,31 @@
    display: block
    min-width: 22.86rem
    margin-bottom: 1.85rem
- #btn-top
-   z-index: 99999
+ .footer
+  padding-top: 0
+  &__container
+    width: 100%
+    margin-top: 0
+  &__wrap
+   margin: 0
+   background: $dark
+  &__form
+   justify-content: start
+  &__input
+   &-group
+     flex-basis: 100%
+  &__menu
+   display: none
+  &__button
+   display: flex
+   justify-content: center
+   align-items: center
+   margin: 0
+ .policy
+  flex-basis: 100%
+  &__label
+   &--center
+    justify-content: flex-start
 @media screen and ( max-height: 520px )
  .hero
   &__scroll-down

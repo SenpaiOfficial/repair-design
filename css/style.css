@@ -1012,8 +1012,29 @@ img {
     display: block;
     min-width: 22.86rem;
     margin-bottom: 1.85rem; }
-  #btn-top {
-    z-index: 99999; } }
+  .footer {
+    padding-top: 0; }
+    .footer__container {
+      width: 100%;
+      margin-top: 0; }
+    .footer__wrap {
+      margin: 0;
+      background: #131313; }
+    .footer__form {
+      justify-content: start; }
+    .footer__input-group {
+      flex-basis: 100%; }
+    .footer__menu {
+      display: none; }
+    .footer__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0; }
+  .policy {
+    flex-basis: 100%; }
+    .policy__label--center {
+      justify-content: flex-start; } }
 
 @media screen and (max-height: 520px) {
   .hero__scroll-down {
