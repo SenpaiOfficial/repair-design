@@ -45,4 +45,36 @@ $(document).ready(function () {
 
  new WOW().init();
 
+ /* Валидация формы */
+ $('.modal__form').validate({
+  errorClass: "invalid",
+  rules: {
+   /* simple rule, converted to {required: true} */
+   userName: {
+    required: true,
+    minlength: 2
+   },
+   userPhone: "required",
+   /* compound rule */
+   userEmail: {
+    required: true,
+    email: true
+   }
+  },
+  messages: {
+   userName: {
+    required: "Заполните поле",
+    minlength: "Имя не короче твоего члена"
+   },
+   userPhone: "Телефон обязателен",
+   userEmail: {
+    required: "Обязательно укажите email",
+    email: "Введите в формате: name.@mail.ru"
+   }
+  }
+ });
+
+ /* Маска для телефона */
+ $('[type=tel]').mask('+7(000) 00-00-000', {placeholder: "+7 (___)__-__-___"});
+
 });

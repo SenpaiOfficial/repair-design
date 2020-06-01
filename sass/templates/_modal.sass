@@ -36,6 +36,7 @@
  &__title
   font-family: 'Yeseva One', cursive
   font-size: 1.357rem
+  font-weight: normal
   text-align: center
   margin: 0
   margin-bottom: 2.428rem
@@ -43,12 +44,19 @@
   display: flex
   flex-direction: column
  &__input
-  margin-bottom: 3.428rem
-  &:last-of-type
-   margin-bottom: 1rem
+  &-group
+   display: flex
+   flex-direction: column
+   margin-bottom: 3.428rem
  &__policy
   margin-bottom: 2.7rem
  &__button
   align-self: flex-end
   padding: 1.35rem 3.54rem
   border-radius: 0
+label
+  &.invalid
+    color: tomato
+input
+  &.invalid
+    border-bottom: 1px solid tomato
