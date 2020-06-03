@@ -564,7 +564,7 @@ img {
       height: 30px;
       border: 2px solid #E3B873;
       border-radius: 50%;
-      margin-left: 1.3rem; }
+      margin-left: 1.2rem; }
   .hero__text {
     font-size: 1.57rem;
     max-width: 500px;
@@ -740,6 +740,7 @@ img {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
+  font-weight: normal;
   font-size: 1.29rem;
   margin-top: 0;
   margin-bottom: 0.7rem; }
@@ -758,24 +759,58 @@ img {
   bottom: -1.79rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', cursive;
+  font-weight: normal;
   text-transform: uppercase;
   background-color: #E3B873;
   color: #fff;
   padding: 1.214rem 2.6rem; }
 
-.designs {
+.designs__section-title {
+  margin-bottom: 2rem; }
+
+.designs__text {
+  display: flex;
+  font-size: 1.428rem;
+  line-height: 1.928rem;
+  max-width: 52.9rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2.785rem;
+  margin-top: 1rem; }
+
+.clients {
   margin-bottom: 30rem; }
-  .designs__section-title {
-    margin-bottom: 2rem; }
-  .designs__text {
+  .clients__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem; }
+  .clients__image {
+    margin-right: 2rem;
+    margin-left: 1rem; }
+  .clients__text {
     display: flex;
     font-size: 1.428rem;
     line-height: 1.928rem;
-    max-width: 52.9rem;
+    max-width: 25.7rem;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 2.785rem;
     margin-top: 1rem; }
+
+.card__text--client {
+  margin-top: 0;
+  max-width: 26.5rem; }
+
+.card__list--client {
+  padding: 0;
+  max-width: 23.1rem; }
+
+.card__heading {
+  font-family: 'Yeseva One', cursive;
+  font-weight: normal;
+  font-size: 1.285rem;
+  line-height: 1.64rem; }
 
 .footer {
   background: #131313 url("../img/footer-bg.jpg") no-repeat center/cover;
