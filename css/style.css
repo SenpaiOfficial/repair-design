@@ -835,6 +835,10 @@ img {
   .card__image--client-2 {
     flex-basis: 30%; }
 
+.card__p {
+  text-transform: none;
+  padding-right: 1rem; }
+
 .footer {
   background: #131313 url("../img/footer-bg.jpg") no-repeat center/cover;
   padding-top: 3rem; }
