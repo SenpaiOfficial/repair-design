@@ -56,8 +56,6 @@
   padding: 0.5rem 0; }
   .input--light {
     margin-bottom: 1rem; }
-    .input--light::-webkit-input-placeholder {
-      color: #fff; }
     .input--light::-moz-placeholder {
       color: #fff; }
     .input--light:-ms-input-placeholder {
@@ -438,6 +436,7 @@ img {
     .section-title__heading {
       text-transform: uppercase;
       font-family: 'Yeseva One', cursive;
+      font-weight: normal;
       line-height: 138.6%;
       font-size: 1.428rem;
       margin: 0 0 0.785rem 0; }
@@ -770,6 +769,7 @@ img {
 
 .designs__text {
   display: flex;
+  font-weight: normal;
   font-size: 1.428rem;
   line-height: 1.928rem;
   max-width: 52.9rem;
@@ -777,6 +777,9 @@ img {
   text-align: center;
   margin-bottom: 2.785rem;
   margin-top: 1rem; }
+
+.col {
+  flex-basis: 30%; }
 
 .clients {
   margin-bottom: 30rem; }
@@ -985,6 +988,8 @@ input.invalid {
     margin-bottom: 30rem; }
   .nav {
     display: none; }
+  .hero::after {
+    display: none; }
   .hero__instagram {
     display: none; }
   .hero__content {
@@ -998,7 +1003,8 @@ input.invalid {
   .img--projects {
     margin-top: 2rem; }
   .designs {
-    background-color: #131313; }
+    background-color: #131313;
+    margin-bottom: 0; }
     .designs__text {
       color: #fff; }
   .section-title__heading {
@@ -1041,8 +1047,6 @@ input.invalid {
   .control__button {
     position: relative;
     margin-bottom: -7rem; }
-  .control__input::-webkit-input-placeholder {
-    color: #fff; }
   .control__input::-moz-placeholder {
     color: #fff; }
   .control__input:-ms-input-placeholder {
@@ -1079,11 +1083,13 @@ input.invalid {
   .footer {
     padding-top: 0; }
     .footer__map {
-      max-width: 34rem; }
+      max-width: 34rem;
+      margin-bottom: 0; }
     .footer__items {
       display: flex;
       flex-wrap: wrap;
-      order: 5; }
+      order: 5;
+      margin-top: 2rem; }
     .footer__container {
       width: 100%;
       margin-top: 0; }
@@ -1098,6 +1104,8 @@ input.invalid {
       display: none; }
     .footer__button {
       display: flex;
+      width: 25.7rem;
+      max-width: 25.7rem;
       justify-content: center;
       align-items: center;
       margin: 0; }

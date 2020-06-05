@@ -12,6 +12,8 @@
  .nav
   display: none
  .hero
+  &::after
+   display: none
   &__instagram
    display: none
   &__content
@@ -25,6 +27,7 @@
     margin-top: 2rem
   .designs
     background-color: $dark
+    margin-bottom: 0
     &__text
       color: $light
   .section-title__heading
@@ -105,10 +108,12 @@
   padding-top: 0
   &__map
    max-width: 34rem
+   margin-bottom: 0
   &__items
    display: flex
    flex-wrap: wrap
    order: 5
+   margin-top: 2rem
   &__container
    width: 100%
    margin-top: 0
@@ -124,6 +129,8 @@
    display: none
   &__button
    display: flex
+   width: 25.7rem
+   max-width: 25.7rem
    justify-content: center
    align-items: center
    margin: 0
