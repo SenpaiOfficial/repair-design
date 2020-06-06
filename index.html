@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=07f087e5-e569-4abd-b2a0-6cf2d5611d09&lang=ru_RU" type="text/javascript"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <header class="header">
     <div class="container">
@@ -187,8 +188,8 @@
           <!-- /.section-title__image -->
         </div>
         <!-- /.section-title -->
-        <div class="control__video video wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
-          <img src="img/play-icon.svg" alt="play icon" class="video__play">
+        <div class="control__video video wow animate__animated animate__fadeInUp" id="player" data-wow-delay="0.4s">
+          <a class="video__play" data-fancybox href="https://www.youtube.com/watch?v=o5_cr1EagFM"><img src="img/play-icon.svg" alt="play icon"></a>
         </div>
         <!-- /.control__video video -->
         <p class="control__text wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
@@ -692,7 +693,7 @@
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.mask.min.js"></script>
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=07f087e5-e569-4abd-b2a0-6cf2d5611d09&lang=ru_RU" type="text/javascript"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
